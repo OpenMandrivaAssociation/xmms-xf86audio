@@ -1,7 +1,7 @@
 %define name	xmms-xf86audio
 %define summary	Enable XMMS control via XF86Audio keysyms (acme)
 %define version	0.4.3
-%define release %mkrel 2
+%define release %mkrel 3
 
 Name:		%{name}
 Version:	%{version}
