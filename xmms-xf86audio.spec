@@ -1,7 +1,7 @@
 %define name	xmms-xf86audio
 %define summary	Enable XMMS control via XF86Audio keysyms (acme)
 %define version	0.4.3
-%define release %mkrel 3
+%define release %mkrel 4
 
 Name:		%{name}
 Version:	%{version}
@@ -47,5 +47,5 @@ rm -rf $RPM_BUILD_ROOT
 %files 
 %defattr(-,root,root)
 %doc README
-/usr/lib/xmms/General/libxf86audio.so
+%{_libdir}/xmms/General/libxf86audio.so
 
