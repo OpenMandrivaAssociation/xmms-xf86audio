@@ -9,7 +9,7 @@ Release:	%{release}
 Summary:	%{summary}
 License:	GPL
 Source0:	http://www.devin.com/xmms-xf86audio/download/%{name}-%{version}.tar.bz2
-URL:		http://www.devin.com/xmms-xf86audio/
+URL:		https://www.devin.com/xmms-xf86audio/
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	libxmms-devel
