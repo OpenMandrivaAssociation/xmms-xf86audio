@@ -12,6 +12,7 @@ Source0:	http://www.devin.com/xmms-xf86audio/download/%{name}-%{version}.tar.bz2
 URL:		https://www.devin.com/xmms-xf86audio/
 Group:		Sound
 BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRequires:	make
 BuildRequires:	libxmms-devel
 Requires:	xmms
 
